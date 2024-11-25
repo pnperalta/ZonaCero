@@ -1,0 +1,231 @@
+body{
+    background-color: rgba(48, 110, 56, 0.813);
+    
+}
+
+h1, h2 {
+    color:rgba(9, 24, 11, 0.813);
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+input, label {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    margin-left: 4%;
+    margin-bottom: 5px;
+    background-color: rgb(27, 66, 32);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(15, 40, 19);
+}
+
+.comic-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.comic {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manga {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comic span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.comic-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 900px;
+    margin: 20px 0;
+    margin-left: 19%;
+}
+
+.comic {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comic span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 90%;
+    max-width: 600px;
+    margin-left: 20%;
+}
+
+.cart-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#total {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #08381c;
+    margin-left: 60%;
+    margin-bottom: 1%;
+}
+
+#confirmButton{
+    display: none;
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+
+#confirmationMessage{
+    display: none;
+    margin-top: 20px;
+    color: #041f0f;
+    font-weight: bold;
+    margin-left: 20%;
+    font-size: 150%;
+}
+
+.pcarro{
+    background-color:#637b5ca3;
+    width: 70%;
+    height: 80%;
+    margin-left: 15%;
+    border-radius: 2%;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.comics{
+    display: flex;
+    margin-left: 5%;
+}
+
+#botoninicio{
+    background-color: #1b4220;
+    width: 8%;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.carrito{
+    width: 7%;
+    margin-left: 77%;
+}
+
+.editorial{
+    display: flex;
+    margin-left: 24%;
+}
+.banners{
+    width: 101%;
+    height: 100%;
+}
+
+.btn{
+    background-color: rgb(255, 255, 255);
+}
+
+.agregar{
+    margin-left: 0.5%;
+}
+
+#carrusel{
+   background-color: rgba(255, 255, 255, 0);
+}
+
+.cliente{
+    margin-top: 10%;
+    margin-left: 37%;
+}
+.boton{
+    margin-top: 2%;
+    margin-left: 40%;
+    width: 20%;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Iniciar sesión</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="imagenes/videoplayback.mp4" type="video/mp4">
+        </video>
+    </div>
+    <h1>Iniciar Sesión</h1>
+    <form id="loginForm" style="margin-left: 38%;">
+        <label>
+            Correo:
+            <input type="email" id="correo" required>
+        </label>
+        <button type="button" onclick="iniciarSesion()">Iniciar Sesión</button>
+    </form>
+    <h2>¿No tienes una cuenta? Regístrate:</h2>
+    <form id="registroForm" style="margin-left: 38%;">
+        <label>
+            Nombre:
+            <input type="text" id="nombre" required>
+        </label>
+        <label>
+            Correo:
+            <input type="email" id="correoRegistro" required>
+        </label>
+        <label>
+            DNI:
+            <input type="text" id="dni" required>
+        </label>
+        <label>
+            Dirección:
+            <input type="text" id="direccion" required>
+        </label>
+        <button type="button" onclick="registrarCliente()">Registrar</button>
+    </form>
+    <script src="clases/classCliente.js"></script>
+</body>
+</html>
